@@ -1,0 +1,14 @@
+1. S - Principio Single Responsibility :
+Una clase solo deberia tener una sola responsabilidad, para de este modo asegurar que haga una cosa pero que la haga bien
+   
+2. O - Principio de Open/Close
+Establece que los modulos deben estar abiertos a extensiones pero cerrados a modificaciones
+
+3. L - Principio de Sustitución:
+Establece que no deberia haber ningun poblema en la integridad de un programa si se sustituyen los objetos de la clase abstracta
+
+4. I - Principio de Segregación de la Interfaz:
+ establece que se debe dar un buen uso a las interfaces, es decir no se deberia depender de interfaces 				que no son utilizadas 
+
+5. D - Principio de Dependencia :
+Principalmente dice que los modulos de alto nivel no deberian depender de modulos de bajo nivel

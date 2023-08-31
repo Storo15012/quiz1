@@ -1,0 +1,33 @@
+public class ChasisAssembler {
+    public String armarChasis() {
+        // Lógica para armar el chasis
+        return "Chasis armado";
+    }
+}
+
+public class RuedasAssembler {
+    public String armarRuedas() {
+        return "Ruedas armadas";
+    }
+}
+
+public class Bicicleta {
+    private ChasisAssembler chasisAssembler;
+    private RuedasAssembler ruedasAssembler;
+    
+    public Bicicleta(ChasisAssembler chasisAssembler, RuedasAssembler ruedasAssembler) {
+        this.chasisAssembler = chasisAssembler;
+        this.ruedasAssembler = ruedasAssembler;
+    }
+    
+    public void armarBicicleta() {
+        String chasisArmado = chasisAssembler.armarChasis();
+        String ruedasArmadas = ruedasAssembler.armarRuedas();
+        
+        unir(chasisArmado, ruedasArmadas);
+    }
+    
+    private void unir(String chasis, String ruedas) {
+        System.out.println("Bicicleta armada");
+    }
+}

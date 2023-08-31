@@ -1,0 +1,33 @@
+SALIDA XML DEL PROGRAMA:
+<Lechugas>
+  <nombre>Romana</nombre>
+  <color>'Verde</color>
+  <EDAD>1</EDAD>
+</Lechugas>, <Moras>
+  <nombre>mora</nombre>
+  <color>'azul</color>
+  <EDAD>6</EDAD>
+</Moras>, <Zanahorias>
+  <nombre>baby</nombre>
+  <color>'naranja</color>
+  <EDAD>3</EDAD>
+</Zanahorias>
+
+CONVERSION A JSON:
+{
+  "Lechugas": {
+    "nombre": "Romana",
+    "color": "'Verde",
+    "EDAD": 1
+  },
+  "Moras": {
+    "nombre": "mora",
+    "color": "'azul",
+    "EDAD": 6
+  },
+  "Zanahorias": {
+    "nombre": "baby",
+    "color": "'naranja",
+    "EDAD": 3
+  }
+}
