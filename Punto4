@@ -1,6 +1,5 @@
 public class ChasisAssembler {
     public String armarChasis() {
-        // Lógica para armar el chasis
         return "Chasis armado";
     }
 }
